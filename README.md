@@ -1,12 +1,12 @@
 The Housing Authority Scraper gathers public data provided by the namesake agency on secondary transactions of government-built, privately-owned flats—typically referred to as subsidized sale flats (SSF) but also referred to as Home Ownership Flats (HOS) at times (the latter of which being a misnomer, but that’s a whole other story). 
 
 Before running, the following are necessary. Installation guides can be found online.
+- Download the GitHub folder that contains this text file (click the Code button, select Download ZIP from the dropdown menu)
 - Have access to Terminal (Mac) or Powershell (Windows)
 - Install Python, latest version
 - Install Chrome or Firefox
 - Install WebDriver (for Chrome) or geckdriver (for Firefox)
 - Install the following Python packages: pandas, Selenium
-- Download the GitHub folder that contains this text file.
 
 Once all the dependencies are installed, to run the scraper, run the following lines of code inside the backquotes in Terminal/Powershell:
 ```
