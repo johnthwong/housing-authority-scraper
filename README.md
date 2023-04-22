@@ -6,13 +6,14 @@ Before running, the following are necessary. Installation guides can be found on
 - Install Chrome or Firefox
 - Install WebDriver (for Chrome) or geckdriver (for Firefox)
 - Install the following Python packages: pandas, Selenium
+- Download the GitHub folder that contains this text file.
 
 Once all the dependencies are installed, to run the scraper, run the following lines of code inside the backquotes in Terminal/Powershell:
 ```
 python3
 import sys
-sys.path.append(‘Users/john/Downloads’) # replace the file path as appropriate
-from ha_scrape_4 import scrape
+sys.path.append(‘Users/john/Downloads’) # replace the file path with where the downloaded folder is located on your computer
+from housing-authority-scraper-main.ha_scrape_4 import scrape
 scrape(2021, 2022) # input any number of years you’d like to scrape
 ```
 
