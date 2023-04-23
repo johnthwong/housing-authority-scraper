@@ -6,7 +6,7 @@ Created on Sun Apr  9 13:51:52 2023
 @author: John Wong
 """
 
-def scrape(*year_num):
+def scrape(path, *year_num):
     
     from selenium import webdriver
     from selenium.webdriver.common.by import By
@@ -18,7 +18,6 @@ def scrape(*year_num):
     
     months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     count_list = pandas.DataFrame(columns = ["year", "month", "count"])
-    path = "/Users/john/geckodriver"
     driver = webdriver.Firefox(executable_path=path)
     
     for year in years:
