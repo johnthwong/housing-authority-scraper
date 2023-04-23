@@ -1,7 +1,7 @@
 # Introduction
-The Housing Authority's data on secondary transactions of government-built, privately-owned flats are notoriously difficult to access as the data must be requested by month, each with a separate web form. 
+The Housing Authority's data on secondary transactions of government-built, privately-owned flats (aka SSFs) are notoriously difficult to access as the data must be requested by month, each with a separate web form. 
 
-The Housing Authority Scraper automatically gathers the transaction count of said flats by month and year and generates a CSV file that can be easily used for further research, such as the analysis of trading volume or housing supply.
+The Housing Authority Scraper automatically gathers the transaction count of SSFs by month and year and generates a CSV file that can be easily used for further research, such as the analysis of trading volume or housing supply.
 
 Sidenote: government-built, privately-owned flats are typically referred to as subsidized sale flats (SSF) but also referred to as Home Ownership Flats (HOS) at times (the latter is a misnomer, but that’s a whole other story). 
 
