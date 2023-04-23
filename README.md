@@ -1,5 +1,11 @@
-The Housing Authority Scraper gathers public data provided by the namesake Hong Kong agency on secondary transactions of government-built, privately-owned flats—typically referred to as subsidized sale flats (SSF) but also referred to as Home Ownership Flats (HOS) at times (the latter of which being a misnomer, but that’s a whole other story). 
+# Introuduction
+The Housing Authority's data on secondary transactions of government-built, privately-owned flats are notoriously difficult to access as the agency does not offer a way to download transaction data or an API and data must be requested with a web form by month.
 
+The Housing Authority Scraper gathers the transaction count of these flats by month and year and generates a csv file that can be easily used for further research, such as the analysis of housing market momentum or affordability.
+
+Sidenote: Government-built, privately-owned flats are typically referred to as subsidized sale flats (SSF) but also referred to as Home Ownership Flats (HOS) at times (the latter of which being a misnomer, but that’s a whole other story). 
+
+# How to Use
 Before running, the following are necessary. Installation guides can be found online.
 - Download the GitHub folder that contains this text file (click the Code button, select Download ZIP from the dropdown menu)
 - Have access to Terminal (Mac) or Powershell (Windows)
