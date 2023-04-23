@@ -17,7 +17,7 @@ from housing-authority-scraper-main.ha_scrape_4 import scrape
 scrape(2021, 2022) # input any number of years you’d like to scrape
 ```
 
-Once run, the script will generate a .csv file with the requested data in your working directory. If you do not know where your working directory is, run the following lines of code to find out where the output file is stored.
+Once run, the scraper will generate a .csv file with the requested data in your working directory. If you do not know where your working directory is, run the following lines of code to find out where the output file is stored.
 ```
 python3
 import os
