@@ -27,7 +27,7 @@ import sys
 sys.path.append(‘/Users/john/Downloads’) 
 
 # import the scrape function from the downloaded folder
-from housing-authority-scraper-main.ha_scrape_4 import scrape
+from housing-authority-scraper-main.housing-authority-scraper import scrape
 
 # input the path to where geckodriver or WebDriver is installed and then input any number of years you’d like to scrape:
 scrape('/Users/john/geckodriver', 2021, 2022) 
