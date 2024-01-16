@@ -23,11 +23,11 @@ python3
 # import sys package for the subsequent line of code:
 import sys 
 
-# replace the file path with where the downloaded folder is located on your computer:
-sys.path.append(‘/Users/john/Downloads’) 
+# replace the file path with the local path to the downloaded folder:
+sys.path.append(‘/Users/john/Downloads/housing-authority-scraper’) 
 
-# import the scrape function from the downloaded folder
-from housing-authority-scraper-main.ha_scrape_4 import scrape
+# import the scrape function:
+from housing_authority_scraper import scrape
 
 # input the path to where geckodriver or WebDriver is installed and then input any number of years you’d like to scrape:
 scrape('/Users/john/geckodriver', 2021, 2022) 
@@ -39,5 +39,3 @@ Once run, the scraper will generate a .csv file with the requested data in your 
 import os
 os.getcwd()
 ```
-
-Have fun!
